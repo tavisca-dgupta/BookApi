@@ -1,0 +1,20 @@
+{
+  {
+    "Author": "Chinua Achebe",
+    "Name": "Things Fall Apart",
+    "Price": "100",
+    "Id": "1"
+  },
+  {
+    "Author": "Hans Christian Andersen",
+    "Name": "Fairy tales",
+    "Price": "200",
+    "Id": "2"
+  },
+  {
+    "Author": "Dante Alighieri",
+    "Name": "The Divine Comedy",
+    "Price": "300",
+    "Id": "3"
+  }
+}
