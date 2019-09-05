@@ -24,7 +24,7 @@ namespace WebApiStart.View
         }
         public bool AddBook(Book book)
         {
-            if(!(book.Name.All(char.IsDigit))&&!(string.IsNullOrEmpty(book.Name)))
+            if (IsAValidName(book.Name) && IsAValidName(book.Author) && book.Price > 0)
             {
                 return dbbook.AddBook(book);
             }
@@ -41,15 +41,24 @@ namespace WebApiStart.View
 
         public bool UpdateBook(string name,Book book)
         {
-            //if (!(book.Name.All(char.IsDigit)) && !(string.IsNullOrEmpty(book.Name)))
-            //{
-            //    return dbbook.UpdateBook(name, book);
-            //}
-            //else
-            //{
-            //    throw new NameCannotBeAddedException();
-            //}
-            return dbbook.UpdateBook(name, book);
+            if(IsAValidName(book.Name)&&IsAValidName(book.Author)&&book.Price>0)
+                return dbbook.UpdateBook(name, book);
+            else
+                throw new NameCannotBeAddedException();
+
+        }
+
+        public bool IsAValidName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+                return false;
+           foreach(char n in name)
+            {
+                if (char.IsDigit(n))
+                    return false;
+            }
+            return true;
+           
         }
     }
 }

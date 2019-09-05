@@ -51,9 +51,9 @@ namespace WebApiStart.Controllers
                     return NotFound();
                 }
             }
-            catch
+            catch(Exception e)
             {
-                return NotFound();
+                return NotFound(e);
             }
         }
 
@@ -72,9 +72,9 @@ namespace WebApiStart.Controllers
                     return NotFound();
                 }
             }
-            catch
+            catch(Exception e)
             {
-                return NotFound();
+                return NotFound(e);
             }
             
         }
