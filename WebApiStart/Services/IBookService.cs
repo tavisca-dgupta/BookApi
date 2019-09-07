@@ -9,9 +9,9 @@ namespace WebApiStart
     public interface IBookService
     {
         List<Book> GetBooks();
-        Book GetBookByName(string name);
-        bool AddBook(Book book);
-        bool DeleteBook(string name);
-        bool UpdateBook(string name, Book book);
+        BookResponseModel GetBookByName(string name);
+        BookResponseModel AddBook(Book book);
+        BookResponseModel DeleteBook(string name);
+        BookResponseModel UpdateBook(string name, Book book);
     }
 }

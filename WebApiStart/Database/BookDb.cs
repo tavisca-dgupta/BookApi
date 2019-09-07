@@ -12,14 +12,18 @@ namespace WebApiStart.Database
     {
         private static List<Book> _bookList = new List<Book>();
         
-        
-        public List<Book> GetBooks()
+        public BookDb()
         {
             using (StreamReader r = new StreamReader("DbFiles/book.json"))
             {
                 string json = r.ReadToEnd();
                 _bookList = JsonConvert.DeserializeObject<List<Book>>(json);
             }
+        }
+        
+        public List<Book> GetBooks()
+        {
+            
             return _bookList;
         }
 
@@ -52,11 +56,19 @@ namespace WebApiStart.Database
             _bookList[_bookList.IndexOf(_bookList.Where(b => b.Name == name).First())].Author = book.Author;
             _bookList[_bookList.IndexOf(_bookList.Where(b => b.Name == name).First())].Price = book.Price;
             _bookList[_bookList.IndexOf(_bookList.Where(b => b.Name == name).First())].Name = book.Name;
+            string convertedJson = JsonConvert.SerializeObject(_bookList, Formatting.Indented);
+            File.WriteAllText("DbFiles/book.json", convertedJson);
             return true;
         }
         public bool DeleteBook(string name)
         {
+            if (!(IsElementPresent(name)))
+            {
+                return false;
+            }
             _bookList.RemoveAt(_bookList.IndexOf(_bookList.Where(b => b.Name == name).First()));
+            string convertedJson = JsonConvert.SerializeObject(_bookList, Formatting.Indented);
+            File.WriteAllText("DbFiles/book.json", convertedJson);
             return true;
         }
 

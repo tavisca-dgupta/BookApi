@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using WebApiStart.Model;
 using WebApiStart.View;
 
@@ -28,7 +29,10 @@ namespace WebApiStart.Controllers
         {
             try
             {
-                return Ok(_book.GetBookByName(name));
+                BookResponseModel bookResponse = _book.GetBookByName(name);
+                if (bookResponse.errorList.Count > 0)
+                    return BadRequest(bookResponse.errorList);
+                return Ok(bookResponse.Book);
             }
             catch
             {
@@ -42,18 +46,14 @@ namespace WebApiStart.Controllers
         {
             try
             {
-                if(_book.AddBook(book))
-                {
+                BookResponseModel bookResponse = _book.AddBook(book);
+                if(bookResponse.Status==1)
                     return Ok();
-                }
-                else
-                {
-                    return NotFound();
-                }
+                return BadRequest(bookResponse.errorList);
             }
-            catch(Exception e)
+            catch
             {
-                return NotFound(e);
+                return NotFound();
             }
         }
 
@@ -63,33 +63,33 @@ namespace WebApiStart.Controllers
         {
             try
             {
-                if (_book.UpdateBook(name, book))
-                {
-                    return Ok(_book.UpdateBook(name, book));
-                }
+                BookResponseModel bookResponse = _book.UpdateBook(name, book);
+                if (bookResponse.Status == 1)
+                    return Ok();
                 else
-                {
-                    return NotFound();
-                }
+                    return BadRequest(bookResponse.errorList);
+               
             }
             catch(Exception e)
             {
                 return NotFound(e);
             }
-            
         }
 
         // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{name}")]
         public ActionResult Delete(string name)
         {
             try
             {
-                return Ok(_book.DeleteBook(name));
+                BookResponseModel bookResponse= _book.DeleteBook(name);
+                if (bookResponse.Status == 1)
+                    return Ok();
+                return BadRequest(bookResponse.errorList);
             }
-            catch
+            catch(Exception e)
             {
-                return NotFound();
+                return NotFound(e);
             }
         }
     }

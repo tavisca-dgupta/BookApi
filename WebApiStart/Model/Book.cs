@@ -8,6 +8,7 @@ namespace WebApiStart.Model
 {
     public class Book
     {
+        
         public Book(int id,string name,string author,int price)
         {
             Id = id;
