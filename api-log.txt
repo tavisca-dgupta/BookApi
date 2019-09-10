@@ -1,0 +1,948 @@
+2019-09-09 17:06:37,346 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 17:06:38,629 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/values  
+2019-09-09 17:06:38,632 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 17:06:38,697 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.8767ms 200 
+2019-09-09 17:06:39,038 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Values"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[System.String]] Get() on controller WebApiStart.Controllers.ValuesController (WebApiStart).
+2019-09-09 17:06:39,063 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.ValuesController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 17:06:39,575 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.ValuesController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 505.3748ms.
+2019-09-09 17:06:39,592 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.String[]'.
+2019-09-09 17:06:39,666 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.ValuesController.Get (WebApiStart) in 615.4703ms
+2019-09-09 17:06:39,685 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1054.9972ms 200 application/json; charset=utf-8
+2019-09-09 17:06:41,597 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books application/json 69
+2019-09-09 17:06:41,608 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 17:06:41,661 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 17:06:41,666 [8] INFO WebApiStart.Controllers.ValuesController - hello
+2019-09-09 17:06:41,674 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.8977ms.
+2019-09-09 17:06:41,682 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 17:06:41,705 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 82.4311ms
+2019-09-09 17:06:41,725 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.0019ms 200 application/json; charset=utf-8
+2019-09-09 17:06:41,814 [8] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPL37T3288I", Request id "0HLPL37T3288I:00000002": the application completed without reading the entire request body.
+2019-09-09 21:59:14,533 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 21:59:15,920 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 21:59:15,921 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 21:59:16,001 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.4796ms 200 
+2019-09-09 21:59:16,474 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 21:59:16,669 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 21:59:16,674 [8] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 21:59:17,199 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 515.7434ms.
+2019-09-09 21:59:17,222 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 21:59:17,270 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 771.6368ms
+2019-09-09 21:59:17,292 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1371.4109ms 200 application/json; charset=utf-8
+2019-09-09 22:04:35,711 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:04:36,956 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:04:36,958 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 22:04:37,059 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.2851ms 200 
+2019-09-09 22:04:37,517 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:04:37,716 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:04:37,721 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:04:38,176 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 446.6337ms.
+2019-09-09 22:04:38,195 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:04:38,237 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 704.6121ms
+2019-09-09 22:04:38,258 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1303.4643ms 200 application/json; charset=utf-8
+2019-09-09 22:06:07,005 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:06:08,022 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 22:06:08,023 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:06:11,952 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3928.1636ms 200 
+2019-09-09 22:06:12,361 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:06:12,499 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:06:12,503 [8] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:06:12,965 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 453.6056ms.
+2019-09-09 22:06:12,994 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:06:13,072 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 670.3157ms
+2019-09-09 22:06:15,861 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7829.9651ms 200 application/json; charset=utf-8
+2019-09-09 22:06:24,173 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:07:17,932 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:07:18,573 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:07:18,751 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:07:18,892 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-09 22:07:19,182 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 285.4717ms.
+2019-09-09 22:07:19,194 [10] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Errors.ErrorModel, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:07:19,213 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 457.2611ms
+2019-09-09 22:07:19,232 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 659.0565ms 400 application/json; charset=utf-8
+2019-09-09 22:07:27,808 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:07:27,812 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:07:27,818 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-09 22:07:27,824 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.0591ms.
+2019-09-09 22:07:27,826 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Errors.ErrorModel, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:07:27,829 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 13.5549ms
+2019-09-09 22:07:27,832 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.4399ms 400 application/json; charset=utf-8
+2019-09-09 22:07:40,341 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:07:45,304 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:07:45,313 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:07:45,317 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:07:45,324 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5.297ms.
+2019-09-09 22:07:45,329 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:07:45,342 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 27.5799ms
+2019-09-09 22:07:45,370 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5021.8469ms 200 application/json; charset=utf-8
+2019-09-09 22:07:52,480 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:09:21,612 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:09:22,469 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:09:22,470 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 22:09:22,545 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.4998ms 200 
+2019-09-09 22:09:22,827 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:09:22,931 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:09:22,935 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:09:23,356 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 418.3229ms.
+2019-09-09 22:09:23,375 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:09:23,406 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 568.708ms
+2019-09-09 22:09:23,423 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 954.9395ms 200 application/json; charset=utf-8
+2019-09-09 22:09:26,736 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:09:26,806 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:09:26,922 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-09 22:09:26,935 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 6.2383ms.
+2019-09-09 22:09:26,955 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Errors.ErrorModel, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:09:26,975 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 156.1328ms
+2019-09-09 22:09:27,002 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 253.5977ms 400 application/json; charset=utf-8
+2019-09-09 22:09:40,462 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:13:27,290 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:13:27,324 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-09 22:13:27,382 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.3111ms.
+2019-09-09 22:13:27,420 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Errors.ErrorModel, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:13:27,438 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 130.082ms
+2019-09-09 22:13:27,482 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 226993.2737ms 400 application/json; charset=utf-8
+2019-09-09 22:22:42,196 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:22:43,282 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:22:43,284 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 22:22:44,854 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1568.8116ms 200 
+2019-09-09 22:22:45,227 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:22:45,456 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:22:45,460 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:22:45,893 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 426.6155ms.
+2019-09-09 22:22:45,931 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:22:45,990 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 739.6777ms
+2019-09-09 22:22:46,013 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2731.7531ms 200 application/json; charset=utf-8
+2019-09-09 22:23:05,414 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:32:31,530 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:32:33,351 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 22:32:33,353 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:32:35,689 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2251.917ms 200 
+2019-09-09 22:32:36,254 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:32:36,429 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:32:36,433 [8] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:32:37,169 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 713.912ms.
+2019-09-09 22:32:37,209 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:32:37,296 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 996.8089ms
+2019-09-09 22:32:37,491 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3963.4237ms 200 application/json; charset=utf-8
+2019-09-09 22:32:53,971 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:43:30,113 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:43:31,473 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 22:43:31,474 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:43:34,861 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3369.5493ms 200 
+2019-09-09 22:43:35,349 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:43:35,547 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:43:35,551 [9] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:43:36,229 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 672.3094ms.
+2019-09-09 22:43:36,259 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:43:36,373 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 962.9263ms
+2019-09-09 22:43:36,461 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4917.9111ms 200 application/json; charset=utf-8
+2019-09-09 22:43:56,577 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:43:57,267 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:43:57,708 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:43:57,844 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-09 22:43:57,867 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 153.0843ms
+2019-09-09 22:43:57,883 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 616.4887ms 400 application/json; charset=utf-8
+2019-09-09 22:44:14,573 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 69
+2019-09-09 22:44:14,581 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:44:14,592 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-09 22:44:14,597 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 8.119ms
+2019-09-09 22:44:14,600 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.6436ms 400 application/json; charset=utf-8
+2019-09-09 22:44:29,830 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 68
+2019-09-09 22:44:29,841 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:44:29,845 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-09 22:44:29,847 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 3.8944ms
+2019-09-09 22:44:29,850 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.1624ms 400 application/json; charset=utf-8
+2019-09-09 22:44:54,226 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:45:10,426 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 68
+2019-09-09 22:45:10,441 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:45:36,069 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:45:41,468 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:57:54,580 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 22:57:56,211 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 68
+2019-09-09 22:57:56,212 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 22:57:56,222 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 22:57:56,366 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 153.6679ms 200 
+2019-09-09 22:58:25,369 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:58:25,371 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 22:58:25,675 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 22:58:25,689 [8] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 22:58:25,754 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-09 22:58:26,055 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 489.0645ms
+2019-09-09 22:58:26,398 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29949.3219ms 400 application/json; charset=utf-8
+2019-09-09 22:58:27,109 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1423.1444ms.
+2019-09-09 22:58:27,125 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 22:58:27,140 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 1760.1232ms
+2019-09-09 22:58:27,206 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30949.5578ms 200 application/json; charset=utf-8
+2019-09-09 23:02:41,107 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 23:02:42,472 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 23:02:42,480 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 23:02:42,575 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.2077ms 200 
+2019-09-09 23:02:43,146 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:02:43,405 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 23:02:43,409 [8] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 23:02:43,945 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 523.6831ms.
+2019-09-09 23:02:43,986 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 23:02:44,081 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 869.9426ms
+2019-09-09 23:02:44,158 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1638.2068ms 200 application/json; charset=utf-8
+2019-09-09 23:05:55,729 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 23:06:06,752 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 23:06:06,765 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 23:06:06,767 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 68
+2019-09-09 23:06:06,890 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.7587ms 200 
+2019-09-09 23:06:29,416 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:06:29,432 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:06:29,557 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 23:06:29,562 [9] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 23:06:29,656 [10] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-09 23:06:29,712 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 243.509ms
+2019-09-09 23:06:29,752 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22978.2471ms 400 application/json; charset=utf-8
+2019-09-09 23:06:30,277 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 712.3844ms.
+2019-09-09 23:06:30,283 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 23:06:30,292 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 869.2228ms
+2019-09-09 23:06:30,300 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23550.0647ms 200 application/json; charset=utf-8
+2019-09-09 23:07:26,784 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 23:07:28,645 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 23:07:28,647 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 68
+2019-09-09 23:07:28,653 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 23:07:28,777 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 127.8098ms 200 
+2019-09-09 23:07:29,501 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:07:29,509 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:07:29,707 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 23:07:29,713 [8] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 23:07:29,838 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-09 23:07:36,474 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 6621.0241ms.
+2019-09-09 23:07:36,478 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6750.5712ms.
+2019-09-09 23:07:36,525 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 23:07:36,541 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Errors.ErrorModel, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 23:07:36,691 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 7048.4432ms
+2019-09-09 23:07:36,737 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 7058.8995ms
+2019-09-09 23:07:36,820 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8074.0618ms 200 application/json; charset=utf-8
+2019-09-09 23:07:36,849 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8104.276ms 400 application/json; charset=utf-8
+2019-09-09 23:08:16,972 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 23:08:18,099 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 23:08:18,101 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 68
+2019-09-09 23:08:18,103 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 23:08:18,164 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.9725ms 200 
+2019-09-09 23:08:25,132 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:08:25,222 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:08:25,405 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 23:08:25,410 [9] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 23:08:25,487 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-09 23:08:25,617 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 310.4594ms
+2019-09-09 23:08:25,679 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7554.3644ms 400 application/json; charset=utf-8
+2019-09-09 23:08:26,303 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 882.5048ms.
+2019-09-09 23:08:26,331 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 23:08:26,369 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 1169.4438ms
+2019-09-09 23:08:26,381 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8278.9053ms 200 application/json; charset=utf-8
+2019-09-09 23:14:12,140 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-09 23:14:14,199 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-09 23:14:14,206 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-09 23:14:14,223 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 68
+2019-09-09 23:14:14,460 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 248.2128ms 200 
+2019-09-09 23:14:15,177 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:14:15,205 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:14:15,425 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-09 23:14:15,433 [9] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-09 23:14:15,518 [10] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-09 23:14:15,573 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 357.3429ms
+2019-09-09 23:14:15,607 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1399.0453ms 400 application/json; charset=utf-8
+2019-09-09 23:14:16,330 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 880.5194ms.
+2019-09-09 23:14:16,343 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-09 23:14:16,356 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 1142.4174ms
+2019-09-09 23:14:16,363 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2172.7962ms 200 application/json; charset=utf-8
+2019-09-09 23:14:20,866 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 68
+2019-09-09 23:14:20,903 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-09 23:14:20,969 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-09 23:14:20,982 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 66.6559ms
+2019-09-09 23:14:20,998 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.9596ms 400 application/json; charset=utf-8
+2019-09-10 08:50:54,620 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 08:50:56,125 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 08:50:56,126 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 08:50:56,206 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.4477ms 200 
+2019-09-10 08:50:56,664 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:50:56,854 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 08:50:56,858 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 08:50:57,385 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 516.4214ms.
+2019-09-10 08:50:57,420 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 08:50:57,488 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 781.7983ms
+2019-09-10 08:50:57,518 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1380.9565ms 200 application/json; charset=utf-8
+2019-09-10 08:51:01,388 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books application/json 
+2019-09-10 08:51:01,397 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:51:01,407 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 08:51:01,410 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 08:51:01,419 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3211ms.
+2019-09-10 08:51:01,427 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 08:51:01,440 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 30.2454ms
+2019-09-10 08:51:01,461 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.6704ms 200 application/json; charset=utf-8
+2019-09-10 08:51:18,121 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 08:51:18,196 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:51:18,237 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-10 08:51:18,259 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 47.1518ms
+2019-09-10 08:51:18,297 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 150.8264ms 400 application/json; charset=utf-8
+2019-09-10 08:51:53,932 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books/Kite Runner  
+2019-09-10 08:51:54,091 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApiStart.Model.Book] Get(System.String) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:51:54,126 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 08:51:54,144 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.5916ms.
+2019-09-10 08:51:54,159 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'WebApiStart.Model.Book'.
+2019-09-10 08:51:54,211 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 70.4311ms
+2019-09-10 08:51:54,243 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 321.7901ms 200 application/json; charset=utf-8
+2019-09-10 08:52:30,685 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:44348/api/Books/Kite Runner application/json 62
+2019-09-10 08:52:30,785 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Put", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApiStart.Model.Book] Put(System.String, WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:52:30,815 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Put (WebApiStart) - Validation state: Valid
+2019-09-10 08:52:30,875 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Put (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 26.6877ms.
+2019-09-10 08:52:30,976 [9] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 08:52:31,098 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Put (WebApiStart) in 190.2493ms
+2019-09-10 08:52:31,228 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 481.6792ms 200 
+2019-09-10 08:52:40,792 [15] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:44348/api/Books/Kite Runner application/json 62
+2019-09-10 08:52:40,800 [15] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Put", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApiStart.Model.Book] Put(System.String, WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:52:40,816 [15] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Put (WebApiStart) - Validation state: Valid
+2019-09-10 08:52:40,855 [15] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Put (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 4.4245ms.
+2019-09-10 08:52:40,863 [15] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 08:52:40,874 [15] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Put (WebApiStart) in 64.932ms
+2019-09-10 08:52:40,889 [15] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 91.6031ms 200 
+2019-09-10 08:52:49,214 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books application/json 
+2019-09-10 08:52:49,227 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:52:49,261 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 08:52:49,265 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 08:52:49,272 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.8511ms.
+2019-09-10 08:52:49,292 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 08:52:49,305 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 67.0022ms
+2019-09-10 08:52:49,319 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.4443ms 200 application/json; charset=utf-8
+2019-09-10 08:53:35,589 [16] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 08:54:28,763 [16] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:54:28,771 [16] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-10 08:54:28,786 [16] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 8.8059ms
+2019-09-10 08:54:30,174 [16] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54568.4936ms 400 application/json; charset=utf-8
+2019-09-10 08:55:38,949 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 08:55:52,856 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 08:55:52,858 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 08:55:55,320 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2458.0961ms 200 
+2019-09-10 08:55:55,739 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:55:55,857 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 08:55:56,472 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 08:55:58,955 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3089.5641ms.
+2019-09-10 08:55:58,976 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 08:56:02,963 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 7210.3795ms
+2019-09-10 08:56:03,004 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10126.2778ms 200 application/json; charset=utf-8
+2019-09-10 08:56:09,339 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:44348/api/Books/Kite Runner application/json 62
+2019-09-10 08:56:20,760 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Put", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApiStart.Model.Book] Put(System.String, WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:56:20,833 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Put (WebApiStart) - Validation state: Valid
+2019-09-10 08:56:20,886 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Put (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 28.3715ms.
+2019-09-10 08:56:20,907 [8] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 08:56:20,918 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Put (WebApiStart) in 149.5514ms
+2019-09-10 08:56:22,610 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13263.8878ms 200 
+2019-09-10 08:56:52,218 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:44348/api/Books/Kite Runner application/json 62
+2019-09-10 08:56:58,270 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Put", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApiStart.Model.Book] Put(System.String, WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:56:58,283 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Put (WebApiStart) - Validation state: Valid
+2019-09-10 08:56:58,303 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Put (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 13.8525ms.
+2019-09-10 08:56:58,312 [7] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 08:56:58,318 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Put (WebApiStart) in 41.316ms
+2019-09-10 08:56:59,598 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7358.3084ms 200 
+2019-09-10 08:57:17,577 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:44348/api/Books/Kite Runner application/json 62
+2019-09-10 08:57:21,763 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Put", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApiStart.Model.Book] Put(System.String, WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:57:21,772 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Put (WebApiStart) - Validation state: Valid
+2019-09-10 08:57:33,519 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Put (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 11738.4479ms.
+2019-09-10 08:57:33,533 [8] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 08:57:33,548 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Put (WebApiStart) in 11769.1958ms
+2019-09-10 08:57:46,782 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29181.6075ms 200 
+2019-09-10 08:57:51,551 [15] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 08:58:03,360 [15] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:58:03,373 [15] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-10 08:58:03,385 [15] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 17.6345ms
+2019-09-10 08:58:05,050 [15] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13490.2504ms 400 application/json; charset=utf-8
+2019-09-10 08:58:20,389 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 08:58:26,612 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 08:58:26,629 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-10 08:58:26,657 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 17.4663ms
+2019-09-10 08:58:27,923 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7529.0199ms 400 application/json; charset=utf-8
+2019-09-10 08:59:56,240 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 09:00:15,608 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 09:00:15,610 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:44348/api/Books/Kite Runner application/json 62
+2019-09-10 09:00:15,613 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 09:00:33,817 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13834.7445ms 200 
+2019-09-10 09:00:37,523 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 09:00:37,538 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Put", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebApiStart.Model.Book] Put(System.String, WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 09:00:37,679 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 09:00:40,662 [9] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 09:00:41,819 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2019-09-10 09:00:41,849 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Put (WebApiStart) in 4295.2886ms
+2019-09-10 09:00:43,467 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27815.411ms 400 application/json; charset=utf-8
+2019-09-10 09:00:45,584 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7895.2459ms.
+2019-09-10 09:00:45,595 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 09:00:47,918 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 10378.5214ms
+2019-09-10 09:00:47,929 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32318.4695ms 200 application/json; charset=utf-8
+2019-09-10 09:06:10,431 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 09:06:20,709 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 09:06:20,712 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 09:06:20,716 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 09:06:40,500 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13923.5808ms 200 
+2019-09-10 09:07:07,843 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 09:07:08,219 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47443.4744ms 500 text/html; charset=utf-8
+2019-09-10 09:07:08,665 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 09:07:08,858 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 09:07:21,214 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 12337.1273ms.
+2019-09-10 09:07:21,245 [8] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 09:07:21,258 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 12582.7017ms
+2019-09-10 09:07:21,304 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60570.6454ms 200 
+2019-09-10 09:07:30,554 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books application/json 
+2019-09-10 09:07:32,907 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 09:07:32,955 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2377.2247ms 500 text/html; charset=utf-8
+2019-09-10 09:09:25,532 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 09:09:32,149 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 09:09:32,150 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 09:09:34,658 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2507.6839ms 200 
+2019-09-10 09:09:34,943 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 09:09:35,095 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 09:09:37,700 [8] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 09:09:38,154 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3051.2071ms.
+2019-09-10 09:09:38,173 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 09:09:38,196 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 3244.9129ms
+2019-09-10 09:09:38,210 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6062.5952ms 200 application/json; charset=utf-8
+2019-09-10 10:22:01,212 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 10:22:16,119 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 10:22:16,122 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 10:22:17,069 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 938.4286ms 200 
+2019-09-10 10:22:17,501 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 10:22:17,660 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 10:22:24,292 [8] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 10:22:29,441 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11769.674ms.
+2019-09-10 10:22:29,459 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 10:22:29,525 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 11988.5731ms
+2019-09-10 14:29:08,868 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 14:29:15,935 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 14:29:15,937 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 14:29:17,152 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1200.8029ms 200 
+2019-09-10 14:29:17,711 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 14:29:17,961 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 14:29:28,135 [7] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 14:29:29,084 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11112.4035ms.
+2019-09-10 14:29:29,116 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 14:29:29,407 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 11496.6705ms
+2019-09-10 14:29:29,466 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13499.9707ms 200 application/json; charset=utf-8
+2019-09-10 14:29:33,452 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 64
+2019-09-10 14:30:58,070 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 14:30:59,861 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 14:30:59,863 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 64
+2019-09-10 14:30:59,866 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 14:31:00,609 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 731.8559ms 200 
+2019-09-10 14:31:46,198 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 14:31:48,137 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 14:31:48,142 [10] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 14:33:05,292 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 14:33:05,403 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 14:33:20,245 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 92063.7593ms.
+2019-09-10 14:33:20,265 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 14810.7291ms.
+2019-09-10 14:33:20,300 [10] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 14:33:20,319 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Errors.ErrorModel, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 14:33:20,380 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 94135.7525ms
+2019-09-10 14:33:20,461 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 15087.6802ms
+2019-09-10 14:33:20,606 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 140610.068ms 200 application/json; charset=utf-8
+2019-09-10 14:33:20,620 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 140631.5511ms 400 application/json; charset=utf-8
+2019-09-10 14:38:53,705 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 14:38:55,303 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 64
+2019-09-10 14:38:55,310 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 14:38:55,313 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 14:38:55,998 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 14:38:55,998 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 14:38:56,054 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 723.6564ms 200 
+2019-09-10 14:39:40,450 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 14:39:43,087 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 14:39:43,099 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 14:39:43,253 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 14:39:43,379 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 219.6922ms 200 
+2019-09-10 14:39:43,429 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 14:39:43,432 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 14:41:05,387 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 14:41:07,680 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 14:41:07,683 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 14:41:07,686 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 14:41:08,263 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 14:41:08,265 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 14:41:12,754 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 590.7977ms 200 
+2019-09-10 14:41:22,894 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 14:41:22,901 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 14:41:22,955 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 14:41:22,960 [10] INFO WebApiStart.Controllers.BooksController - hello
+2019-09-10 14:41:23,197 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 14:41:23,935 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 934.6497ms.
+2019-09-10 14:41:23,988 [10] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 14:41:24,016 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 792.8118ms.
+2019-09-10 14:41:24,054 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 1132.337ms
+2019-09-10 14:41:24,067 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 14:41:24,103 [8] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 14:41:24,122 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 1202.0294ms
+2019-09-10 14:41:24,128 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 14:41:24,137 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16440.2809ms 200 application/json; charset=utf-8
+2019-09-10 14:41:24,278 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16478.9961ms 200 
+2019-09-10 15:49:14,726 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 15:49:17,576 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 15:49:17,591 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 15:49:17,621 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 15:49:17,758 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:49:17,758 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:49:18,389 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 828.9779ms 200 
+2019-09-10 15:49:18,934 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:49:18,942 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:49:19,105 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 15:49:19,121 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.3943ms.
+2019-09-10 15:49:19,204 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 15:49:19,238 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 15:49:19,281 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 320.8213ms
+2019-09-10 15:49:19,283 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:49:19,502 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1764.1021ms 200 application/json; charset=utf-8
+2019-09-10 15:49:19,575 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 312.8127ms.
+2019-09-10 15:49:19,613 [10] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2019-09-10 15:49:19,696 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 699.3597ms
+2019-09-10 15:49:19,700 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:49:19,757 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2164.6494ms 400 application/json; charset=utf-8
+2019-09-10 15:50:16,164 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 15:50:16,167 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:50:16,175 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:50:16,184 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 15:50:16,194 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.4215ms.
+2019-09-10 15:50:16,200 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2019-09-10 15:50:16,236 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 25.3119ms
+2019-09-10 15:50:16,252 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:50:16,265 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 143.2891ms 400 application/json; charset=utf-8
+2019-09-10 15:50:19,647 [13] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 15:50:19,682 [13] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:50:19,784 [13] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:50:19,883 [13] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 15:50:19,901 [13] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 0.2891ms.
+2019-09-10 15:50:20,269 [13] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2019-09-10 15:50:20,352 [13] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 487.3601ms
+2019-09-10 15:50:20,356 [13] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:50:20,477 [13] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 728.4947ms 400 application/json; charset=utf-8
+2019-09-10 15:50:51,988 [14] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 15:50:51,991 [14] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:50:54,367 [14] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:50:54,378 [14] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 15:52:06,727 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 15:52:08,526 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 15:52:08,530 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 15:52:08,534 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 15:52:08,619 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:52:08,624 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:52:19,953 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 664.4464ms 200 
+2019-09-10 15:52:35,360 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:52:37,789 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:52:37,809 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29251.0539ms 500 
+2019-09-10 15:52:37,884 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29295.2072ms 500 
+2019-09-10 15:52:38,165 [8] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLR2U366AG", Request id "0HLPLR2U366AG:00000001": the application completed without reading the entire request body.
+2019-09-10 15:53:33,859 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 15:53:35,194 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 15:53:35,198 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 15:53:35,255 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:53:48,784 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13547.2466ms 200 
+2019-09-10 15:54:35,159 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 15:54:37,458 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 15:54:37,459 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 15:54:37,462 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 15:54:37,549 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:54:37,552 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:55:33,934 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 15:55:35,772 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 15:55:35,773 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 15:55:35,823 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:55:35,963 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 187.8623ms 200 
+2019-09-10 15:55:36,074 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 32
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 15:55:36,415 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 618.485ms 500 text/html; charset=utf-8
+2019-09-10 15:56:11,935 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 15:56:13,322 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 15:56:13,323 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 15:56:13,356 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:56:13,470 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.2845ms 200 
+2019-09-10 15:56:14,746 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:56:14,963 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 15:56:14,987 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.387ms.
+2019-09-10 15:56:15,016 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 15:56:15,060 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 294.6771ms
+2019-09-10 15:56:15,064 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:56:15,085 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1759.6161ms 200 application/json; charset=utf-8
+2019-09-10 15:56:16,870 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 15:56:16,876 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:56:17,100 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:56:17,286 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 15:56:25,599 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 8306.0577ms.
+2019-09-10 15:56:25,615 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2019-09-10 15:56:25,629 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 8519.8511ms
+2019-09-10 15:56:25,636 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:56:25,674 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8816.7462ms 400 application/json; charset=utf-8
+2019-09-10 15:58:08,753 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 15:58:10,835 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 15:58:10,837 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 15:58:10,877 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 15:58:10,950 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:58:10,950 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 15:58:11,872 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 974.4462ms 200 
+2019-09-10 15:58:12,452 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:58:12,459 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 15:58:13,307 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 15:58:13,627 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.592ms.
+2019-09-10 15:58:13,693 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 15:58:13,741 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 15:58:13,845 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 1313.0893ms
+2019-09-10 15:58:13,850 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:58:13,901 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3048.9236ms 200 application/json; charset=utf-8
+2019-09-10 15:58:14,182 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 359.1076ms.
+2019-09-10 15:58:14,288 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2019-09-10 15:58:14,350 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 1834.9345ms
+2019-09-10 15:58:14,353 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 15:58:14,404 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3545.8989ms 400 application/json; charset=utf-8
+2019-09-10 16:01:25,774 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 16:01:27,335 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 16:01:27,339 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 16:01:27,350 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:01:27,408 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:01:27,409 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:01:27,582 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 191.9466ms 200 
+2019-09-10 16:01:27,621 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:01:28,083 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 664.421ms 200 
+2019-09-10 16:01:28,148 [9] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLR84KBQ3R", Request id "0HLPLR84KBQ3R:00000001": the application completed without reading the entire request body.
+2019-09-10 16:01:28,674 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 16:01:28,832 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 16:01:28,843 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.4479ms.
+2019-09-10 16:01:28,863 [10] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 16:01:28,900 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 214.1459ms
+2019-09-10 16:01:28,904 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:01:28,920 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1586.9918ms 200 application/json; charset=utf-8
+2019-09-10 16:01:52,422 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books application/json 
+2019-09-10 16:01:52,425 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:01:52,507 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 16:01:52,705 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 16:01:52,742 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1959ms.
+2019-09-10 16:01:52,797 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 16:01:52,817 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 291.7466ms
+2019-09-10 16:01:52,821 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:01:52,873 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 410.4077ms 200 application/json; charset=utf-8
+2019-09-10 16:04:07,693 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 16:04:09,028 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 16:04:09,029 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 16:04:09,072 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:04:09,101 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.5503ms 200 
+2019-09-10 16:04:10,186 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 16:04:10,375 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 16:04:10,389 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.1811ms.
+2019-09-10 16:04:10,413 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 16:04:10,491 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 254.7991ms
+2019-09-10 16:04:10,493 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:04:10,637 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books application/json 
+2019-09-10 16:04:10,640 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:04:10,681 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1529.3862ms 200 application/json; charset=utf-8
+2019-09-10 16:04:10,693 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 16:04:10,725 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 16:04:10,803 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.1549ms.
+2019-09-10 16:04:10,823 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 16:04:10,846 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 131.9226ms
+2019-09-10 16:04:10,858 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:04:10,909 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 352.0178ms 200 application/json; charset=utf-8
+2019-09-10 16:04:15,553 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:04:15,555 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:04:15,820 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:04:15,884 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 279.0868ms 200 
+2019-09-10 16:04:16,112 [7] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLR9KQU8F6", Request id "0HLPLR9KQU8F6:00000002": the application completed without reading the entire request body.
+2019-09-10 16:32:51,709 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 16:32:52,723 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 16:32:52,725 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 16:32:52,761 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:32:52,783 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.7947ms 200 
+2019-09-10 16:32:53,256 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 16:32:53,431 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 16:32:53,443 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.1376ms.
+2019-09-10 16:32:53,468 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 16:32:53,523 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 238.7968ms
+2019-09-10 16:32:53,526 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:32:53,543 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 820.9108ms 200 application/json; charset=utf-8
+2019-09-10 16:33:09,186 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:33:09,189 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:33:09,373 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 16:33:09,505 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 313.796ms 500 text/html; charset=utf-8
+2019-09-10 16:33:09,581 [9] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLRPMHKQQK", Request id "0HLPLRPMHKQQK:00000002": the application completed without reading the entire request body.
+2019-09-10 16:33:22,034 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:33:22,038 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:33:22,111 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 16:33:22,134 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.9299ms 500 text/html; charset=utf-8
+2019-09-10 16:33:22,155 [7] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLRPMHKQQL", Request id "0HLPLRPMHKQQL:00000002": the application completed without reading the entire request body.
+2019-09-10 16:34:41,578 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:34:41,589 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:34:47,401 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 16:34:47,428 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5851.2742ms 500 text/html; charset=utf-8
+2019-09-10 16:34:47,437 [7] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLRPMHKQQM", Request id "0HLPLRPMHKQQM:00000001": the application completed without reading the entire request body.
+2019-09-10 16:36:17,739 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:36:17,752 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:36:32,068 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 16:36:32,098 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14355.7334ms 500 text/html; charset=utf-8
+2019-09-10 16:36:32,109 [9] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLRPMHKQQN", Request id "0HLPLRPMHKQQN:00000001": the application completed without reading the entire request body.
+2019-09-10 16:37:11,210 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 16:37:12,222 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 16:37:12,224 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 16:37:12,259 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:37:18,475 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:37:18,503 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:37:18,571 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6257.5701ms 200 
+2019-09-10 16:37:24,568 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 16:37:24,713 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6244.7459ms 500 text/html; charset=utf-8
+2019-09-10 16:37:24,757 [8] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLRS3SAL6R", Request id "0HLPLRS3SAL6R:00000001": the application completed without reading the entire request body.
+2019-09-10 16:37:24,918 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 16:37:25,311 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 16:37:25,331 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.6462ms.
+2019-09-10 16:37:25,361 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 16:37:25,408 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 474.3949ms
+2019-09-10 16:37:32,805 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:37:35,576 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23346.0851ms 200 application/json; charset=utf-8
+2019-09-10 16:37:43,646 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:37:43,651 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:37:49,759 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 35
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 16:37:49,781 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6133.0927ms 500 text/html; charset=utf-8
+2019-09-10 16:37:49,801 [8] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLRS3SAL6Q", Request id "0HLPLRS3SAL6Q:00000002": the application completed without reading the entire request body.
+2019-09-10 16:49:04,595 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 16:49:05,796 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 16:49:05,807 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 16:49:05,817 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 16:49:05,870 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:49:05,873 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 16:49:05,933 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.9529ms 200 
+2019-09-10 16:49:06,625 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 16:49:06,642 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 16:49:06,776 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 16:49:06,788 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.2126ms.
+2019-09-10 16:49:06,836 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 16:49:06,879 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 16:49:06,900 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 246.0073ms
+2019-09-10 16:49:06,906 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 16:49:06,933 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1131.3687ms 200 application/json; charset=utf-8
+2019-09-10 16:49:07,128 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 225.2497ms.
+2019-09-10 16:49:07,142 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2019-09-10 16:49:07,163 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 504.5746ms
+2019-09-10 16:49:07,236 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 43
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 16:49:07,250 [8] WARN Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - The response has already started, the error page middleware will not be executed.
+2019-09-10 16:49:07,274 [8] ERROR Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLS2OGA2PS", Request id "0HLPLS2OGA2PS:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: StatusCode cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse.set_StatusCode(Int32 value)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsync(ActionContext context, ObjectResult result)
+   at Microsoft.AspNetCore.Mvc.ObjectResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 43
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-09-10 16:49:07,282 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1488.1579ms 200 
+2019-09-10 17:04:56,986 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 17:04:58,436 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 17:04:58,443 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 17:04:58,488 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:04:58,512 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.1665ms 200 
+2019-09-10 17:04:59,489 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:04:59,654 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 17:04:59,664 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.3183ms.
+2019-09-10 17:04:59,689 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 17:04:59,735 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 226.5389ms
+2019-09-10 17:04:59,738 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:04:59,756 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1316.5261ms 200 application/json; charset=utf-8
+2019-09-10 17:05:01,183 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:05:01,186 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:05:01,213 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:05:01,283 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 17:05:01,426 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 129.3453ms.
+2019-09-10 17:05:01,444 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2019-09-10 17:05:01,478 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 235.6039ms
+2019-09-10 17:05:01,481 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:05:01,501 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.7013ms 400 application/json; charset=utf-8
+2019-09-10 17:13:17,200 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 17:13:18,781 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 17:13:18,786 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 17:13:18,788 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:13:18,852 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:13:18,859 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:13:18,992 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 182.5661ms 200 
+2019-09-10 17:13:19,770 [9] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 34
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 17:13:19,992 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1209.6702ms 500 text/html; charset=utf-8
+2019-09-10 17:13:20,060 [9] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLSG9EPPK7", Request id "0HLPLSG9EPPK7:00000001": the application completed without reading the entire request body.
+2019-09-10 17:13:20,183 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:13:20,479 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 17:13:20,681 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.0863ms.
+2019-09-10 17:13:20,916 [10] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 17:13:20,953 [10] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 758.3497ms
+2019-09-10 17:13:20,956 [10] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:13:20,980 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2193.9465ms 200 application/json; charset=utf-8
+2019-09-10 17:14:00,648 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:14:00,656 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:14:05,701 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 34
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 17:14:05,727 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5081.8364ms 500 text/html; charset=utf-8
+2019-09-10 17:14:05,822 [7] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLSG9EPPK5", Request id "0HLPLSG9EPPK5:00000002": the application completed without reading the entire request body.
+2019-09-10 17:16:18,927 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 17:16:20,225 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 17:16:20,230 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 17:16:20,281 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:16:20,314 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.284ms 200 
+2019-09-10 17:16:21,372 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:16:21,541 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 17:16:21,554 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.8811ms.
+2019-09-10 17:16:21,576 [9] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 17:16:21,616 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 230.9926ms
+2019-09-10 17:16:21,618 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:16:21,658 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1408.0785ms 200 application/json; charset=utf-8
+2019-09-10 17:16:24,767 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:16:24,770 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:16:25,143 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 34
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 17:16:25,328 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 528.1531ms 500 text/html; charset=utf-8
+2019-09-10 17:16:25,407 [8] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLSHVJE0VN", Request id "0HLPLSHVJE0VN:00000002": the application completed without reading the entire request body.
+2019-09-10 17:16:44,663 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:16:44,667 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:16:55,103 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at WebApiStart.ErrorMiddleware.Invoke(HttpContext context) in C:\Users\dgupta\source\repos\BookApi\WebApiStart\ErrorMiddleware.cs:line 34
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-09-10 17:16:55,282 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10458.7132ms 500 text/html; charset=utf-8
+2019-09-10 17:16:55,571 [8] INFO Microsoft.AspNetCore.Server.Kestrel - Connection id "0HLPLSHVJE0VM", Request id "0HLPLSHVJE0VM:00000002": the application completed without reading the entire request body.
+2019-09-10 17:18:23,914 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 17:18:25,179 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:18:25,180 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 17:18:25,183 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 17:18:25,269 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:18:25,277 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:18:34,179 [10] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4659.863ms 200 
+2019-09-10 17:18:35,778 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:18:35,784 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:18:35,948 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 17:18:35,972 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.1335ms.
+2019-09-10 17:18:35,995 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 17:18:36,020 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 17:18:38,345 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 2539.3177ms
+2019-09-10 17:18:43,030 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:18:46,708 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21524.7758ms 200 application/json; charset=utf-8
+2019-09-10 17:18:58,569 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 22540.8188ms.
+2019-09-10 17:18:58,590 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]'.
+2019-09-10 17:18:58,624 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 22815.4793ms
+2019-09-10 17:19:02,649 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:19:03,769 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38598.5451ms 400 application/json; charset=utf-8
+2019-09-10 17:19:46,933 [16] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:19:46,936 [16] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:19:49,907 [16] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:19:49,924 [16] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 17:20:40,213 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 17:20:41,458 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 17:20:41,459 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 17:20:41,501 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:21:07,286 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25821.9663ms 200 
+2019-09-10 17:21:07,930 [12] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:21:07,942 [12] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:21:08,543 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:21:08,546 [12] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:21:08,729 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 17:21:08,758 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.2793ms.
+2019-09-10 17:21:08,800 [8] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 17:21:08,817 [12] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 17:21:15,605 [8] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 7034.6259ms
+2019-09-10 17:21:15,607 [8] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:21:15,664 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34170.9065ms 200 application/json; charset=utf-8
+2019-09-10 17:21:15,968 [12] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 7076.6575ms.
+2019-09-10 17:21:15,994 [12] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 17:21:16,008 [12] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 7448.6693ms
+2019-09-10 17:21:16,011 [12] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:21:16,039 [12] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8095.6932ms 200 
+2019-09-10 17:28:06,577 [1] INFO Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\dgupta\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-09-10 17:28:07,929 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:44348/api/Books application/json 62
+2019-09-10 17:28:07,931 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:44348/api/Books  
+2019-09-10 17:28:07,934 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:59111/  0
+2019-09-10 17:28:07,973 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:28:07,973 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpRequest
+2019-09-10 17:28:07,996 [8] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.8005ms 200 
+2019-09-10 17:28:08,732 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Post", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(WebApiStart.Model.Book) on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:28:08,735 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Get", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebApiStart.Model.Book]] Get() on controller WebApiStart.Controllers.BooksController (WebApiStart).
+2019-09-10 17:28:08,846 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Get (WebApiStart) - Validation state: Valid
+2019-09-10 17:28:08,860 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Get (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.1976ms.
+2019-09-10 17:28:08,889 [7] INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebApiStart.Model.Book, WebApiStart, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-09-10 17:28:08,939 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executing action method WebApiStart.Controllers.BooksController.Post (WebApiStart) - Validation state: Valid
+2019-09-10 17:28:08,970 [7] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Get (WebApiStart) in 203.9085ms
+2019-09-10 17:28:08,972 [7] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:28:08,994 [7] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1056.7255ms 200 application/json; charset=utf-8
+2019-09-10 17:28:09,197 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action method WebApiStart.Controllers.BooksController.Post (WebApiStart), returned result Microsoft.AspNetCore.Mvc.OkResult in 248.8647ms.
+2019-09-10 17:28:09,212 [9] INFO Microsoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 200
+2019-09-10 17:28:09,222 [9] INFO Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker - Executed action WebApiStart.Controllers.BooksController.Post (WebApiStart) in 477.8601ms
+2019-09-10 17:28:09,225 [9] INFO WebApiStart.Controllers.BooksController - Request ---->  Microsoft.AspNetCore.Http.Internal.DefaultHttpResponse
+2019-09-10 17:28:09,251 [9] INFO Microsoft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1302.9692ms 200 

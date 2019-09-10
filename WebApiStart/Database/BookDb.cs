@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using AutoMapper;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,11 +24,10 @@ namespace WebApiStart.Database
         
         public List<Book> GetBooks()
         {
-            
             return _bookList;
         }
 
-        public bool AddBook(Book book)
+        public Book AddBook(Book book)
         {
             //id++;
             //book.Id = id;
@@ -44,7 +44,7 @@ namespace WebApiStart.Database
             }
             File.WriteAllText("DbFiles/book.json", convertedJson);
 
-            return true;
+            return book;
 
         }
         public bool UpdateBook(string name,Book book)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluentValidation.Results;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,6 +13,8 @@ namespace WebApiStart.Model
         public List<ErrorModel> errorList { get; set; }
 
         public Book Book { get; set; }
+
+        public ValidationResult result { get; set; }
 
         public BookResponseModel()
         {

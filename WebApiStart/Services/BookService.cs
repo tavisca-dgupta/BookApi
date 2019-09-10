@@ -1,4 +1,7 @@
-﻿using System;
+﻿using AutoMapper;
+using FluentValidation.Results;
+using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,13 +20,18 @@ namespace WebApiStart.View
         private Errors.Errors errors = new Errors.Errors();
         public List<Book> GetBooks()
         {
+
             bookList = dbbook.GetBooks();
+            //Mapper.Initialize(cfg =>
+            //{
+            //    cfg.CreateMap<Book, BookModel>();
+
+            //});
             return bookList;
         }
 
         public BookResponseModel GetBookByName(string name)
         {
-
             bookList = dbbook.GetBooks();
             try
             {
@@ -38,16 +46,17 @@ namespace WebApiStart.View
         }
         public BookResponseModel AddBook(Book book)
         {
-            if (IsAValidName(book.Name) && IsAValidName(book.Author) && book.Price > 0)
+            RequestValidator validator = new RequestValidator();
+            ValidationResult result = validator.Validate(book);
+            if(result.Errors.Count == 0)
             {
-                if (dbbook.AddBook(book))
-                {
-                    response.Status = 1;
-                    response.Book = book;
-                }
+                response.Status = 1;
+                response.Book = dbbook.AddBook(book);
             }
             else
-                response.errorList=GetErrorList(book,response.errorList);
+            {
+                response.result = result;
+            }
             return response;
         }
 
@@ -66,7 +75,9 @@ namespace WebApiStart.View
 
         public BookResponseModel UpdateBook(string name,Book book)
         {
-            if (IsAValidName(book.Name) && IsAValidName(book.Author) && book.Price > 0)
+            RequestValidator validator = new RequestValidator();
+            ValidationResult result = validator.Validate(book);
+            if (result.Errors.Count == 0)
             {
                 if (dbbook.UpdateBook(name, book))
                 {
@@ -77,34 +88,12 @@ namespace WebApiStart.View
                     response.errorList.Add(errors.GetError("NameNotFound"));
             }
             else
-                response.errorList = GetErrorList(book,response.errorList);
+            {
+                response.result = result;
+            }
             return response;
 
         }
 
-        public bool IsAValidName(string name)
-        {
-            if (string.IsNullOrEmpty(name))
-                return false;
-           foreach(char n in name)
-            {
-                if (char.IsDigit(n))
-                    return false;
-            }
-            return true;
-           
-        }
-
-        public List<ErrorModel> GetErrorList(Book book, List<ErrorModel> errorList)
-        {
-            if (!(IsAValidName(book.Name)))
-                errorList.Add(errors.GetError("InvalidName"));
-            if (!(IsAValidName(book.Author)))
-                errorList.Add(errors.GetError("InvalidAuthorName"));
-            if (book.Price <= 0)
-                errorList.Add(errors.GetError("PriceCannotBeNegetive"));
-
-            return errorList;
-        }
     }
 }

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.IO;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using log4net;
+using log4net.Config;
+using System.Reflection;
 
 namespace WebApiStart
 {
@@ -14,11 +12,17 @@ namespace WebApiStart
     {
         public static void Main(string[] args)
         {
+            var logRepo = LogManager.GetRepository(Assembly.GetEntryAssembly());
+            XmlConfigurator.Configure(logRepo, new FileInfo("log4net.config"));
             CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+             .ConfigureLogging((webHostBuilderContext, loggingBuilder) =>
+             {
+                 loggingBuilder.AddLog4Net();
+             })
                 .UseStartup<Startup>();
     }
 }

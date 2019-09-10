@@ -14,7 +14,6 @@ namespace WebApiStart.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
-
         private BookService _book = new BookService();
         // GET: api/Books
         [HttpGet]
@@ -23,74 +22,48 @@ namespace WebApiStart.Controllers
             return Ok(_book.GetBooks());
         }
 
-        // GET: api/Books/5
+        // GET: api/Books/abc
         [HttpGet("{name}", Name = "Get")]
         public ActionResult<Book> Get(string name)
         {
-            try
-            {
-                BookResponseModel bookResponse = _book.GetBookByName(name);
-                if (bookResponse.errorList.Count > 0)
-                    return BadRequest(bookResponse.errorList);
-                return Ok(bookResponse.Book);
-            }
-            catch
-            {
-                return NotFound();
-            }
+            BookResponseModel bookResponse = _book.GetBookByName(name);
+            if (bookResponse.errorList.Count > 0)
+                    return NotFound(bookResponse.errorList);
+            return Ok(bookResponse.Book);
+            
         }
 
         // POST: api/Books
         [HttpPost]
         public IActionResult Post([FromBody] Book book)
         {
-            try
-            {
-                BookResponseModel bookResponse = _book.AddBook(book);
-                if(bookResponse.Status==1)
-                    return Ok();
-                return BadRequest(bookResponse.errorList);
-            }
-            catch
-            {
-                return NotFound();
-            }
+            BookResponseModel bookResponse = _book.AddBook(book);
+            if(bookResponse.Status==1)
+                return Ok();
+            return BadRequest(bookResponse.result.Errors);
         }
 
-        // PUT: api/Books/5
+        // PUT: api/Books/abc
         [HttpPut("{name}")]
         public ActionResult<Book> Put(string name, [FromBody] Book book)
         {
-            try
-            {
-                BookResponseModel bookResponse = _book.UpdateBook(name, book);
-                if (bookResponse.Status == 1)
-                    return Ok();
-                else
-                    return BadRequest(bookResponse.errorList);
-               
-            }
-            catch(Exception e)
-            {
-                return NotFound(e);
-            }
+            BookResponseModel bookResponse = _book.UpdateBook(name, book);
+            if (bookResponse.Status == 1)
+                return Ok();
+            else if(bookResponse.errorList.Count>0)
+                return NotFound(bookResponse.errorList);
+            return BadRequest(bookResponse.result.Errors);
+            
         }
 
-        // DELETE: api/ApiWithActions/5
+        // DELETE: api/ApiWithActions/abc
         [HttpDelete("{name}")]
         public ActionResult Delete(string name)
         {
-            try
-            {
-                BookResponseModel bookResponse= _book.DeleteBook(name);
-                if (bookResponse.Status == 1)
-                    return Ok();
-                return BadRequest(bookResponse.errorList);
-            }
-            catch(Exception e)
-            {
-                return NotFound(e);
-            }
+            BookResponseModel bookResponse= _book.DeleteBook(name);
+            if (bookResponse.Status == 1)
+               return Ok();
+            return NotFound(bookResponse.errorList);
         }
     }
 }

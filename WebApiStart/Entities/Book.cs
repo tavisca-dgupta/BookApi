@@ -8,7 +8,7 @@ namespace WebApiStart.Model
 {
     public class Book
     {
-        
+
         public Book(int id,string name,string author,int price)
         {
             Id = id;
@@ -19,7 +19,7 @@ namespace WebApiStart.Model
         public string Author { get;  set; }
         public string Name { get; set; }
         public int Price { get; set; }
-
+        public bool OnSale { get; set; }
         [JsonIgnore]
         public int Id { get;  set; }
         
