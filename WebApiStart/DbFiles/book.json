@@ -1,0 +1,38 @@
+[
+  {
+    "Author": "Chinua Achebe",
+    "Name": "Things Fall Apart",
+    "Price": 100,
+    "OnSale": false
+  },
+  {
+    "Author": "Hans Christian Andersen",
+    "Name": "Fairy tales",
+    "Price": 200,
+    "OnSale": false
+  },
+  {
+    "Author": "Dante Alighieri",
+    "Name": "The Divine Comedy",
+    "Price": 300,
+    "OnSale": false
+  },
+  {
+    "Author": "khalid Hussaini",
+    "Name": "Kite Runner",
+    "Price": 800,
+    "OnSale": false
+  },
+  {
+    "Author": "khalid Hussaini",
+    "Name": "Kite Runner",
+    "Price": 600,
+    "OnSale": false
+  },
+  {
+    "Author": "khalid Hussaini",
+    "Name": "Kite Runner",
+    "Price": 600,
+    "OnSale": false
+  }
+]
